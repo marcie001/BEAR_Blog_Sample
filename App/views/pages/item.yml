@@ -1,0 +1,3 @@
+default:
+  title: yml title
+layout: default.tpl

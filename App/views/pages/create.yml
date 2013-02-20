@@ -1,0 +1,3 @@
+default:
+  title: BEAR Blog: Create
+layout: default.tpl
