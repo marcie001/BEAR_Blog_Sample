@@ -8,11 +8,11 @@ core:
 
 BEAR_Cache:
   # int  キャッシュアダプター 0 なし | 1 PEAR::Cache_Lite | 2 MEMCACHE | 3 APC
-  adapter: 2
+  adapter: 3
   # path: dsn | file path | memcache host(s)
   #   - localhost
-  path:
-     - localhost
+  #path:
+  #   - localhost
 
 BEAR_Session:
   # mixed アダプター 0 なし | 1 File | 2 DB | 3 memchache

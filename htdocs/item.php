@@ -14,15 +14,14 @@ class Page_Item extends App_Page
      */
     public function onInit(array $args) 
     {
-        $options = array(
-            'cache' => array(
-                'life' => 60
-            )
-        );
         $params = array(
             'uri' => 'Post',
             'values' => $args,
-            'options' => $options
+            'options' => array(
+            'cache' => array(
+                    'life' => 60
+                )
+            )
         );
         $postRo = $this->_resource->read($params);
         $post = $postRo->getBody();
